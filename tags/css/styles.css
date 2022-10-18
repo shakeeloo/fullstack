@@ -1,0 +1,188 @@
+
+*{
+    font-family: sans-serif;
+    box-sizing: border-box;
+    margin: 0;
+    /* padding: 0; */
+}
+body{
+    margin-bottom: 500px;
+}
+.homeSection{
+    /* background-color: purple; */
+    background-image: url(../images/what-makes-a-good-team.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    /* background-attachment: fixed; */
+    z-index: -5;
+}
+.overlay{
+    background-color: rgba(190, 0, 217, .6);
+    z-index: -2;
+}
+.section{
+    padding: 90px 0;
+}
+.container{
+    width: 90%;
+    margin:0 auto;
+}
+.homeContent{
+    text-align: center;
+    color: aliceblue;
+    font-family: sans-serif;
+    padding: 150px 0;
+}
+.homeContent h1{
+    font-size: 40px;
+    font-weight: 100;
+    line-height: 55px;
+}
+.homeContent h1 .bold{
+    line-height: 40px;
+    font-weight: 900;
+    color: aqua;
+}
+.homeContent p {
+    line-height: 30px;
+}
+.homeContent button {
+    background-color: crimson;
+    padding: 10px 20px;
+    color: white;
+    text-transform: uppercase;
+    border: none;
+    border-radius: 20px;
+}
+.aboutSection .iconBox{
+    width: 31%;
+    display: inline-block;
+    padding: 30px;
+    margin: 15px;
+    border-radius: 20px;
+    text-align: center;
+    box-shadow: 1px 1px 7px 2px #80808040;
+    margin-bottom: 50px;
+    background-color: white;
+
+}
+.aboutSection .iconBox .icon{
+    width: 70px;
+    height: 70px;
+    border-radius: 50%;
+    background-color: purple;
+    display: inline-block;
+    color: white;
+    line-height: 70px;
+
+}
+
+.aboutSection .iconBox h2{
+    text-transform: capitalize;
+    font-weight: 500;
+
+}
+.aboutSection .iconBox p{
+    color: #afaeaf;
+
+}
+.parent{
+    background-color: coral;
+    position: relative;
+}
+
+.boxes{
+    /* background-color: pink; */
+    position: relative;
+    bottom: 90px;
+    /* z-index: 10; */
+}
+.dInlineBlock, .abc{
+    background-color: bisque;
+}
+.abc{
+    background-color: bisque;
+    /* overflow: auto; */
+}
+.one{
+    width: 33%;
+    display: inline-block;
+    border: 1px solid black;
+}
+.two{
+    width: 33%;
+    border: 1px solid black;
+    float: left;
+}
+iframe{
+    width: 99vw;
+    height: calc(100vw/1.77);
+   }
+
+a:link{
+    font-size: 2rem;
+    background-color: aqua;
+}
+a:visited{
+    background-color: crimson;
+    color: white;
+}
+a:hover{
+    background-color: coral;
+}
+a:active{
+    background-color: yellow;
+}
+li{
+    padding: 10px;
+    margin: 5px;
+}
+li:first-child{
+    background-color: red;
+    margin-top: 50px;
+}
+li:last-child{
+    background-color: green;
+}
+li:nth-child(2){
+    background-color: coral;
+}
+li:nth-child(3){
+    background-color: indigo;
+}
+li:nth-child(4){
+    background-color: yellow;
+}
+li:nth-child(5){
+    background-color: teal;
+}
+li:nth-child(even){
+    background-color: yellow;
+}
+li:nth-child(odd){
+    background-color: red;
+}
+.lists{
+    text-align: center;
+    text-transform: uppercase;
+    font-size: 2.5rem;
+    margin: 50px 0 30px 0;
+    /* border: 1px solid red; */
+    position: relative;
+}
+.lists::after{
+    content: "";
+    height: 50px;
+    width: 50px;
+    background-color: green;
+    position: absolute;
+    left: 48%;
+    top: 53px;
+    transform: rotate(45deg);
+}
+.hr{
+    border: 3px solid green;
+    width: 20%;
+    margin: 10px auto;
+}
